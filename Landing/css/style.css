@@ -47,8 +47,8 @@
 }
 
 
-/* =========================== GLOBAL STYLES ============================== */
-/* ------------- Fonts ------------- */
+/* =========================== Глобальные стили ============================== */
+/* ------------- Шрифты ------------- */
 @font-face {
 	font-family: "Flaticon";
 	src: url("../fonts/flaticon.eot");
@@ -100,7 +100,7 @@
     line-height: 1;
 	display: inline-block;
 }
-/* ------------- Main Styles ------------- */
+/* ------------- Главные стили ------------- */
 body {
 	color: #bdc3c7;
 	font-size: 12px;
@@ -164,7 +164,7 @@ img, img.responsive {
     -ms-transition: all 500ms linear;
     transition: all 500ms linear;
 }
-/* ------------- Extra Classes ------------- */
+/* ------------- Дополнительные классы ------------- */
 .text-extrabold {
 	font-weight: 800;
 }
@@ -206,7 +206,7 @@ img, img.responsive {
     width: 100%;
     z-index: 99999;	
 }
-/* ------------- Section Background ------------- */
+/* ------------- Задний фон ------------- */
 .header-section { background-color:#000000; }
 .features-section  { background-color:#ecf0f1; }
 .reviews-section { background-color:#ffffff; }
@@ -221,7 +221,7 @@ img, img.responsive {
 	padding: 100px 0;
 }
 
-/* ------- Social Icon Hover Styles ------- */
+/* ------- Иконки соц. сетей ------- */
 .gk-facebook:hover, .gk-facebook:focus, .gk-facebook:active {
 	background: #672e81;
 	color: #fff;
@@ -230,7 +230,7 @@ img, img.responsive {
 	background: #672e81;
 	color: #fff;
 }
-/* ------- Title and Desc Styles ------- */
+/* ------- Стили заголовкой и описаний ------- */
 .section-title {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 61px;
@@ -257,7 +257,7 @@ img, img.responsive {
 .gk-triangle-medium:before, .gk-triangle-medium:after {
 	font-size: 30px;
 }
-/* ------- Pointer Arrow Common Styles ------- */
+/* ------- Стили курсоров ------- */
 .gk-pointer-features {
 	position: absolute;
 }
@@ -267,7 +267,7 @@ img, img.responsive {
 .gk-pointer-features.visible {
 	visibility: visible;
 }
-/* ------------- Button Styles ------------- */
+/* ------------- Стили кнопок ------------- */
 .gk-btn {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -307,8 +307,8 @@ img, img.responsive {
 	color: #000000;
 }
 
-/* =========================header============================== */
-/* ------------- Triangle Background ------------- */
+/* ========================= Шапка ============================== */
+/* ------------- Задний фон ------------- */
 .banner-bg {	
 	min-height: 480px;
 	position: relative;
@@ -320,7 +320,7 @@ img, img.responsive {
     padding-left: 15px;
     padding-right: 15px;
 }
-/* ------------- Logo & Menu ------------- */
+/* ------------- Логотип и меню ------------- */
 .logo-container {
 	background: rgba(44, 44, 44, 0.9);
 	color: #fff;
@@ -331,7 +331,7 @@ img, img.responsive {
 	z-index: 9999;	
 	position: relative;
 }
-/* -------- Navigation --------- */
+/* -------- Навигация --------- */
 .top-navbar {
 	margin: 0;
 	min-height: inherit;
@@ -369,7 +369,7 @@ img, img.responsive {
 .top-navbar .dropdown a{
 	background:none !important;
 }
-/* ------------- Top Social Icon Styles ------------- */
+/* ------------- Иконки соц. сетей в шапке ------------- */
 .top-social-icon {
 	margin: 0;
 	padding: 0;
@@ -399,8 +399,8 @@ img, img.responsive {
 .top-social-icon li:last-child a {
 	margin-right: 0;
 }
-/* =========================== BANNER SECTION ============================== */
-/* ------------- Left Banner Styles ------------- */
+/* =========================== Баннеры ============================== */
+/* ------------- Левый ------------- */
 .left-banner-text {
 	margin-top: 60px;
 	padding-top: 50px;
@@ -456,7 +456,7 @@ img, img.responsive {
 	margin-left: 45px;
 	margin-bottom: 12px;
 }
-/* ------------- Right Banner Styles ------------- */
+/* ------------- Правый ------------- */
 .right-banner-image {
 	padding-top: 10px;
 	margin-top: 50px;
