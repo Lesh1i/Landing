@@ -7,6 +7,7 @@
 		- Иконки соц. сетей
 		- Стили заголовков и описаний
 		- Стили курсоров
+		- Стили значка прокркутки
 	- Стили кнопок
 
 2. Шапка сайта	
@@ -492,149 +493,7 @@ img, img.responsive {
 .banner-info-right {
 	margin-top: -30px;
 }
-/* =========================== FEATURES SECTION ============================== */
-.features-left-info {
-	padding: 120px 0 0 15px;
-}
-.gk-list {   
-    display: inline-block;
-    width: 100%;
-	padding-top: 5px;
-}
-.gk-list li {
-	font-size: 17px;
-	clear: both;
-	float: left;
-	display: inline-block;
-	border-bottom: 1px solid #bdc3c7;
-	padding: 5px 12px 5px 0;	
-}
-.gk-list li .fa {
-	display: inline;
-	font-size: 15px;	
-}
-.gk-list li .simple-icon {
-	font-size: 14px;
-	padding-right: 4px;
-	text-shadow: 0 0 0;
-}
-.gk-list li.no-border {
-	border: none;
-}
-.features-right-grid {
-	padding-top: 30px;
-	padding-left: 40px;
-}
-.text-right .features-grid {
-	padding: 0 30px 10px 30px;
-}
-.features-grid {
-	padding: 0 40px 10px 0;	
-}
-.features-grid .fa, .features-grid .simple-icon {
-	font-size: 26px;
-	padding-bottom: 10px;
-}
-.grid-title {
-	font-size: 21px;
-}
-.features-line {
-	border-color: #bdc3c7;
-	width: 78%;
-}
-.features-right-grid .text-right .features-line {	
-	margin-left: 20px;
-	margin-right: 20px;
-	float: right;
-}
-.features-right-grid .features-line {
-	margin-right: 20px;
-	margin-left: -10px;
-	float: left;
-}
-.gk-divider {
-	border-right: 1px solid #bdc3c7;
-}
-.ipad-shot-wrapper {
-	margin-top: -130px;	
-	margin-left: -25px;
-}
-.features-right-info {
-	position: static;
-	padding-left: 120px;	
-}
-.gk-pointer-features.gk-right-arrow {	
-	left: 15%;
-	top: 6%;
-}
-/* =========================== REVIEWS SECTION ============================== */
-.gk-pointer-features.gk-left-arrow {	
-	right: 25%;
-    top: 10%;
-}
-.reviews-slider-section {
-	padding: 90px 0 0;
-}
-.reviews-info {
-	text-align: center;
-	padding: 0 70px 0 30px;
-}
-.reviews-msg {
-	font-size: 17px;
-	margin-bottom: 40px;
-	line-height: 1.6;
-}
-.reviews-msg:before {
-	content: "\e004";	
-	font-family: Flaticon;
-	color: #CCC81E;
-	font-size: 26px;
-}
-.reviews-image img {
-	float: right;
-	max-width: 310px;
-	margin: 30px 30px 0 0;
-}
-.reviews-author:before {
-	content: "";	
-	width: 100%;
-	height: 100%;
-	border: 1px solid #7f8c8d;
-	border-radius: 50%;
-	padding: 0 7px;
-	font-size: 10px;
-}
-.reviews-author {
-	font-size: 21px;
-}
-.reviews-author .author-sub {
-	font-size: 17px;
-}
-.author-margin {
-	margin: 45px 0 0;
-}
-.info-margin {
-	margin: 35px 0 0;
-}
-.reviews-indicators {
-	position: absolute;
-	bottom: 0;
-	right: 14%;
-}
-.reviews-indicators .fa {
-	font-size: 26px;
-}
-.reviews-indicators .fa:hover {
-	opacity: 0.7;
-}
-.main-reviews-image {
-    padding-bottom: 90px;
-}
-
-.gk-slide-left, .gk-slide-right {
-	padding: 0 10px;
-}
-/* =========================== SERVICES SECTION ============================== */
+/* =========================== Услуги ============================== */
 .awesome-container {
 	padding-top: 100px;
 	max-width: 1320px;
@@ -667,52 +526,7 @@ img, img.responsive {
     left: 31%;
     top: 84%;
 }
-/* =========================== SCREENSHOT SECTION ============================== */
-.app-left-info {
-	padding-top: 70px;
-}
-
-.owl-controls {
-	text-align: right;
-	padding: 20px 20px 0 0;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-.owl-controls .owl-buttons div {
-	display: inline-block;
-}
-.owl-controls .owl-buttons .fa {
-	padding: 0 10px;
-	font-size: 26px;
-}
-.owl-controls .owl-buttons .fa:hover {
-	opacity: 0.7;
-}
-.owl-controls .owl-buttons .owl-prev {
-    left: 0;
-    position: absolute;
-    top: 50%;
-}
-.owl-controls .owl-buttons .owl-next {
-    position: absolute;
-    right: 0;
-    top: 50%;
-}
-.app-carousel-slider {
-	padding: 15px 0 0;
-}
-.screen-item img {
-	border-radius: 12px;
-	-moz-border-radius: 12px;
-	-webkit-border-radius: 12px;
-	-o-border-radius: 12px;
-	-ms-border-radius: 12px;
-	margin: 0 auto;
-}
-.app-container {
-	max-width: 1320px;
-}
-/* =========================== PRICING SECTION =========================== */
+/* =========================== Прайс =========================== */
 .pricing-container {
 	max-width: 1320px;
 	padding-top: 90px;
@@ -758,104 +572,7 @@ img, img.responsive {
 .pricing-box ul li {
 	line-height: 24px;
 }
-/* =========================== DEMO SECTION ============================== */
-.video-bg{
-	background:url(../images/video-bg.png) center center no-repeat;
-	background-size: cover;
-    padding-top:60px;
-	padding-bottom: 60px;	
-	position: relative;
-    height: 510px;
-	margin-top: 70px;
-	border: 2px solid rgba(0,0,0,0.5);
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	-o-border-radius: 6px;
-	-ms-border-radius: 6px;
-}
-#video_container {
-	height: 510px;
-}
-.mb_YTVPBar .ytpicon { 
-	border-width: 12px;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-	font-size: 90px;
-	line-height: 105px;
-}
-.mb_YTVPBar span{  
-    height: 128px;    
-    width: 128px;
-}
-.gk-pointer-features.gk-down-arrow {
-	top: 64%;
-	right: 20%;
-}
-/* =========================== DOWNLOAD SECTION ============================== */
-
-.download-right-info {
-	padding: 0 0 30px;
-}
-.download-button {
-    margin: 25% 0 15%;
-    padding-top: 30px;
-    text-align: center;
-}
-.gk-download-btn {
-	font-family: 'Open Sans',sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 12px 16px;
-    text-transform: uppercase;
-    width: auto;
-}
-.gk-download-btn .fa {
-	padding-right: 10px;
-	font-size: 17px;
-}
-.gk-download-pointer.gk-up-right-arrow {
-	top: 100%;
-	left: 50%;
-}
-.download-section .gk-input-submit.submit {
-    padding-top: 20px;
-}
-.subscribe-form {
-	padding-top: 20px;	
-}
-.subscribe-form .form-group.gk-email {
-	max-width: 415px;
-	margin: 0 auto;
-}
-.has-error .help-block {
-	margin: 0;
-}
-.download-section .gk-contact-form .form-control { 
-	border-bottom: 1px solid #7f8c8d;
-	color: #7f8c8d;
-	}
-.download-section .gk-contact-form .form-control::-moz-placeholder {
-	color:#7f8c8d;
-}
-.download-section .gk-contact-form .form-control:-ms-input-placeholder {
-	color:#7f8c8d;
-}
-.download-section .gk-contact-form .form-control::-webkit-input-placeholder {
-	color:#7f8c8d;
-}
-.download-section .gk-submit {
-	border: 1px solid #7f8c8d;
-	color: #7f8c8d;
-}
-.download-section .gk-submit:hover {	
-	color:rgb(0, 0, 0);
-	background:#7f8c8d;
-	}
-/* =========================== CONTACT US SECTION ============================== */
+/* =========================== Контакты ============================== */
 .gk-contact-form {
 	padding-top: 40px;
 }
@@ -982,7 +699,7 @@ img, img.responsive {
 .contact-info .simple-icon {
 	font-size: 20px;
 	text-shadow: 0 0 0;
-}/* =========================== FOOTER SECTION ============================== */
+}/* =========================== Подвал ============================== */
 .footer-bg {
 	background: #141414;
 	color: #7f8c8d;
