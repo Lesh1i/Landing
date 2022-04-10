@@ -1,33 +1,28 @@
-/* ================================= CSS Structure =================================
-1. GLOBAL STYLES	
-	- Fonts
-	- Main Styles
-	- Extra Classes
-		- Z Indexes
-		- Social Icon Hover Styles
-		- Title and Desc Styles
-		- Pointer Arrow Common Styles
-	- Button Styles
+/* ================================= Структура CSS =================================
+1. Глобальные стили	
+	- Шрифты
+	- Главные стили
+	- Дополнительные классы
+		- Индексы Z
+		- Иконки соц. сетей
+		- Стили заголовков и описаний
+		- Стили курсоров
+	- Стили кнопок
 
-2. HEADER SECTION	
-	- Triangle Background
-	- Logo & Menu
-		- Navigation
-	- Top Social Icon Styles
+2. Шапка сайта	
+	- Задний фон
+	- Логотип и меню
+		- Навигация
+	- Иконки соц. сетей
 	
-3. BANNER SECTION
-	- Left Banner Styles
-	- Right Banner Styles
+3. Баннеры
+	- Левый баннер
+	- Правый баннер
 
-4. FEATURES SECTION
-5. REVIEWS SECTION
-6. SERVICES SECTION
-7. SCREENSHOT SECTION
-8. PRICING SECTION
-9. DEMO SECTION
-10. DOWNLOAD SECTION
-11. CONTACT US SECTION
-12. FOOTER SECTION
+4. Услуги
+5. Прайс
+6. Контакты
+7. Подвал
 =========================================================================== */
 
 #LOGO {
