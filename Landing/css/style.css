@@ -31,7 +31,7 @@
 =========================================================================== */
 
 #LOGO {
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
@@ -43,7 +43,7 @@
 }
 
 #RIGHT_BANNER {
-	margin-left: 50%px;
+	margin-left: 50%;
 }
 
 #ABOUT {
