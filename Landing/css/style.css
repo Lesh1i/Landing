@@ -24,6 +24,7 @@
 5. Прайс
 6. Контакты
 7. Подвал
+8. Скроллбар
 =========================================================================== */
 
 #LOGO {
@@ -700,7 +701,8 @@ img, img.responsive {
 .contact-info .simple-icon {
 	font-size: 20px;
 	text-shadow: 0 0 0;
-}/* =========================== Подвал ============================== */
+}
+/* =========================== Подвал ============================== */
 .footer-bg {
 	background: #141414;
 	color: #7f8c8d;
@@ -728,4 +730,18 @@ img, img.responsive {
 	height: 18px;	
 	display: block;
 	line-height: 18px;
+}
+/* =========================== Скроллбар ============================== */
+::-webkit-scrollbar {
+    width: 13px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color:#555555;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.74);
+	border-radius: 10px;
 }
