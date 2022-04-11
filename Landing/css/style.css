@@ -223,11 +223,11 @@ img, img.responsive {
 }
 
 /* ------- Иконки соц. сетей ------- */
-.gk-facebook:hover, .gk-facebook:focus, .gk-facebook:active {
+.gk-youtube:hover, .gk-youtube:focus, .gk-youtube:active {
 	background: #672e81;
 	color: #fff;
 }
-.gk-twitter:hover, .gk-twitter:focus, .gk-twitter:active {
+.gk-vk:hover, .gk-vk:focus, .gk-vk:active {
 	background: #672e81;
 	color: #fff;
 }
